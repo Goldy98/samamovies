@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.px-1 {
+  padding: 10px;
+}
+
+.pt-1 {
+  padding: 10px;
+}
+
+.pb-1 {
+  padding: 10px;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.btn-only>.vs-button--icon {
+  bottom: 4px;
+}
+
+/* Mobile devices (smartphone) */
+@media (max-width: 576px) {
+  .page-title {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+}
+
+/* Mobile devices (smartphone) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
