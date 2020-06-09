@@ -26,11 +26,14 @@ const key = fs.readFileSync("./ssl_certificate/key.pem");
 const cert = fs.readFileSync("./ssl_certificate/cert.pem");
 
 import https = require("https");
+import config from "./config";
 
 const app = express();
 // const server = https.createServer({ key: key, cert: cert }, app);
 
-mongoose.connect("mongodb://localhost:27017/samamovies", {
+const DB_URL = config.dbUrl;
+
+mongoose.connect(DB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
